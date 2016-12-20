@@ -4,4 +4,4 @@ php:
   - 5.4
 
 script: 
-  - echo "Hello"
+  - echo "Hello this is BRANCH 1"
