@@ -4,12 +4,12 @@ language: node_js
 # Version number
 node_js:
   - 0.12
-  - 0.11
+ # - 0.11
 
 build:
   pre_ci_boot:
     image_name: drydock/u14nod
-    image_tag: prod
+    image_tag: master
     pull: true
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
 
