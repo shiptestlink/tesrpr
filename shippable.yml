@@ -20,8 +20,8 @@ build:
     - npm install
 branches:
   only:
-    - jun07
-  except:
     - master
+  except:
+    - jun07
 
 
