@@ -18,5 +18,5 @@ build:
 
   ci:
     - npm install
-    - sleep 9m
+    #- sleep 9m
     
