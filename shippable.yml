@@ -20,5 +20,6 @@ build:
     - npm install
     - echo $JOB_TRIGGERED_BY_NAME
     - echo $JOB_TRIGGERED_BY_ID
+    - echo "versionName=$BRANCH.$BUILD_NUMBER" >> $JOB_STATE/sample_img_out.env
     #- sleep 9m
     
